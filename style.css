@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: cadetblue;
+    padding: 1rem 0;
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /*faz com que possa escolher o tipo do alinhamento*/
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+    border: solid, 1px, rgba(255, 255, 255, 0.479);
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.377);
+}
+
+.logo img:hover {
+    cursor: pointer;
+}
+
+.busca {
+    position: relative;
+}
+
+.busca input {
+    width: 60vw;
+    /*Vw: o quando da pra ver de acordo com o tamanho da tela*/
+    padding: 0.5rem;
+    border-radius: 20rem;
+    border: solid 2px black;
+}
+
+.busca input:focus {
+    outline: none;
+}
+
+.busca i {
+    right: 0.5rem;
+    top: 0.6rem;
+    position: absolute;
+}
+
+.busca i:hover {
+    cursor: pointer;
+}
+
+.icones {
+    position: relative;
+}
+
+.icones {
+    display: flex;
+}
+
+.icones i {
+    font-size: 2vw;
+    margin: 2vw 1vw;
+    transition: 0.2s;
+}
+
+.icones i:hover {
+    cursor: pointer;
+    transform: scale(1.4);
+    color: #e7e6e683;
+}
+
+.navegacao {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    gap: 2vw;
+}
+
+.navegacao li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+.navegacao li a:hover {
+    color: rgba(240, 248, 255, 0.726);
+    font-size: 1.2em;
+    background-color: rgba(95, 158, 160, 0.589);
+}
+
+main{
+    background-color: #ffffff;
+    margin: 1vw;
+    padding: 1.5vw;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.301);
+    border-radius: ;
+}
+
+#texto h2, #sobre h2{
+    color: yellowgreen;
+}
