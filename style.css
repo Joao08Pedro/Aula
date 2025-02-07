@@ -107,6 +107,6 @@ main{
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.301);
 }
 
-#texto h2, #sobre h2{
-    color: yellowgreen;
+#texto h2, #sobre h2, #curiosidades h2{
+    color: rgb(54, 201, 86);
 }
