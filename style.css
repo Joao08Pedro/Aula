@@ -100,18 +100,44 @@ header {
     background-color: rgba(95, 158, 160, 0.589);
 }
 
+.foto-galeria{
+    width: 26%;
+}
+.foto-galeria img{
+    width: 100%;
+    border-radius: 5%;
+    box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.522);
+    min-width: 50px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.depoimentos-flex {
+    display: flex; /*faz com que se pode usar o Gap e o flex-direction*/
+}   
+
+.depoimento {
+    background-color: rgb(4, 196, 65); /*muda o fundo*/
+    padding: 1rem; /*aumenta de dentro para fora*/
+    border-radius: 20px; /*arredonda o elemento*/
+    margin: 0.5rem; /*cria uma marim*/
+    border: solid 2px rgba(0, 0, 0, 0.51); /*Cria uma borda*/
+}
+
 main{
     background-color: #ffffff;
     margin: 1vw;
     padding: 1.5vw;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.301);
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.574);
+    display: flex; 
+    flex-direction: column; /*organiza em forma de coluna*/
+    gap: 1rem; /*espaçamento de elemento*/
 }
 
 #texto h2, #sobre h2{
-    color: rgb(54, 201, 86);
-}
-
-#curiosidades h2{
-    color: black;
-    padding: 0.2rem;
+    color: rgb(40, 156, 65);
 }
